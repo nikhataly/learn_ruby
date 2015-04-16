@@ -100,4 +100,12 @@ class TestSillyBlocks < MiniTest::Test
 
     assert_equal 10, n
   end
+
+  def test_whatever
+    procedure = stupid_function(10)
+    puts procedure.inspect
+    res = procedure.call(12, 18, 21, 9)
+    puts res
+    assert_equal "This procedure likes the numbers 10 and 12", res
+  end
 end
