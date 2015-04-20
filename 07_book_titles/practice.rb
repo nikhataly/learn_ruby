@@ -13,3 +13,7 @@ class Book
     @title = all_words.join(' ')
   end
 end
+
+
+x = Book.new
+x.title = "inferno"

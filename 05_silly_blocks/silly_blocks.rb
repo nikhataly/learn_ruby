@@ -15,8 +15,8 @@ def repeater(times=1)
   end
 end
 
-def stupid_function(number)
-  Proc.new do |n|
-    "This procedure likes the numbers #{number} and #{n.inspect}"
-  end
-end
+# def stupid_function(number)
+#   Proc.new do |n|
+#     "This procedure likes the numbers #{number} and #{n.inspect}"
+#   end
+# end
